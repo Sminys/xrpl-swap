@@ -1,6 +1,12 @@
 body:
     - type: textarea
       attributes:
+          label: Description
+          description: Describe your idea
+      validations:
+          required: true
+    - type: textarea
+      attributes:
           label: Goals
           description: Short list of what the feature request aims to address?
           value: |
@@ -8,7 +14,7 @@ body:
               2.
               3.
       validations:
-          required: true
+          required: false
     - type: textarea
       attributes:
           label: Non-Goals
@@ -24,10 +30,10 @@ body:
           label: Background
           description: Discuss prior art, why do you think this feature is needed? Are there current alternatives?
       validations:
-          required: true
+          required: false
     - type: textarea
       attributes:
           label: Proposal
-          description: How should this feature be implemented? Are you interested in contributing?
+          description: How should this feature be implemented?
       validations:
           required: true
