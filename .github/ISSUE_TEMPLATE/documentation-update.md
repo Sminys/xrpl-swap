@@ -1,7 +1,7 @@
 ---
 name: '📝 Documentation update'
 about: 'Suggest an update for an existing documentation page.'
-title: '📝 Documentation'
+title: '📝 Documentation: '
 labels: 'documentation'
 assignees: ''
 ---
