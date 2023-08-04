@@ -1,10 +1,9 @@
 ---
-name: Feature request
-about: Suggest an idea for this project
-title: "✨"
-labels: enhancement
+name: '✨ Feature request'
+about: 'Suggest an idea for this project'
+title: '✨ Feature: '
+labels: 'enhancement'
 assignees: ''
-
 ---
 
 **Description**
