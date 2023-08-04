@@ -1,33 +1,20 @@
 body:
     - type: textarea
       attributes:
-          label: Goals
-          description: Short list of what the feature request aims to address?
-          value: |
-              1.
-              2.
-              3.
+          label: Summary
+          description: What do you need help with?
       validations:
           required: true
     - type: textarea
       attributes:
-          label: Non-Goals
-          description: Short list of what the feature request _does not_ aim to address?
-          value: |
-              1.
-              2.
-              3.
+          label: Additional information
+          description: Any code snippets, error messages, or dependency details that may be related? (`next info`)
+          render: js
       validations:
           required: false
-    - type: textarea
+    - type: input
       attributes:
-          label: Background
-          description: Discuss prior art, why do you think this feature is needed? Are there current alternatives?
+          label: Example
+          description: A link to a minimal reproduction is helpful for collaborative debugging!
       validations:
-          required: true
-    - type: textarea
-      attributes:
-          label: Proposal
-          description: How should this feature be implemented? Are you interested in contributing?
-      validations:
-          required: true
+          required: false
