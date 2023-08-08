@@ -24,11 +24,10 @@
 
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
+  color:#609FFF;
+  background-color: linear-gradient(
+      to top,
+      #609FFF,
+      #ffffff
     )
-    rgb(var(--background-start-rgb));
 }

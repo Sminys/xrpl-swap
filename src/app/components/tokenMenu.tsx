@@ -9,8 +9,8 @@ import {
 export default function tokenMenu(){
     return(
         <Menu>
-            <MenuButton as={Button} minH={"20px"} maxW={"110px"} fontSize={"13"} textAlign={"center"}>
-                <span>Choose Token</span>
+            <MenuButton as={Button} maxH={"20px"} maxW={"110px"} fontSize={"11"} textAlign={"center"}>
+                Token
             </MenuButton>
             <MenuList>
                 <MenuItem>

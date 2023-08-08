@@ -23,31 +23,38 @@ export default function swapBox() {
           boxShadow={{ base: 'none', sm: 'md' }}
           borderRadius={{ base: 'none', sm: 'xl' }}
         >
-          <Tabs>
+          <Tabs variant={"unstyled"} colorScheme='green'>
             <TabList>
               <Tab>Swap</Tab>
               <Tab>Buy</Tab>
             </TabList>  
-            <TabIndicator
-              color={"white"}/>
               <Stack spacing="6" pt={"20px"}>
-                <Stack spacing="5" direction={"row"}>
-                  <Stat padding={"6px"}>
-                    <StatNumber>12</StatNumber>
-                    <StatHelpText>$30002.381</StatHelpText>
-                  </Stat>
-                  <Stack>
-                    <TokenMenu/>
-                  </Stack>
-                </Stack>
-                <HStack>
-                  <Stat padding={"6px"}>
-                      <StatNumber>30000</StatNumber>
-                      <StatHelpText>$30000</StatHelpText>
+                <Box backgroundColor={"rgba(229, 231, 239, 0.3)"} borderRadius={"14px"}>
+                  <Stack spacing="5" direction={"row"} padding="10px">
+                    <Stat padding={"6px"}>
+                      <StatNumber>12</StatNumber>
+                      <StatHelpText>$30002.381</StatHelpText>
                     </Stat>
-                </HStack>
+                    <Stack padding={"10px"}>
+                      <TokenMenu/>
+                    </Stack>                  
+                  </Stack>
+                </Box>
                 <Stack spacing="6">
-                  <Button>Swap</Button>
+                  <Box backgroundColor={"rgba(229, 231, 239, 0.3)"} borderRadius={"14px"}>
+                    <Stack spacing="5" direction={"row"} padding="10px">
+                      <Stat padding={"6px"}>
+                        <StatNumber>30000</StatNumber>
+                        <StatHelpText>$30000.00</StatHelpText>
+                      </Stat>
+                      <Stack padding={"10px"}>
+                        <TokenMenu/>
+                      </Stack>                  
+                    </Stack>
+                    </Box>
+                  </Stack>  
+                <Stack spacing="6">
+                  <Button background={"rgba(74, 146, 255, 0.2)"}>Swap</Button>
                 </Stack>
               </Stack>
           </Tabs>
